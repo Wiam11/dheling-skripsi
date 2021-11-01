@@ -149,6 +149,8 @@
                                     src="{{$item->user->getAvatar()}}"
                                     alt=""
                                     class="mr-3 rounded-circle"
+                                    style="width: 35px; border-radius: 50%; height: 35px; overflow: hidden; background-repeat: no-repeat;
+                                    background-position: 50%; background-size: cover;"
                                 />
                                 <div class="media-body">
                                     <h5 class="mt-2 mb-1">{{$item->user->name}}</h5>

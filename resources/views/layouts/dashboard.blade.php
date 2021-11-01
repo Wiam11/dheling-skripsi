@@ -84,7 +84,8 @@
                         src="{{ Auth::user()->getAvatar()  }}"
                         alt=""
                         class="rounded-circle mr-2 profile-picture"
-                        style="max-width: 45px"
+                        style="width: 45px; border-radius: 50%; height: 45px; overflow: hidden; background-repeat: no-repeat;
+                                    background-position: 50%; background-size: cover;"
                       />
                       Hi, {{ Auth::user()->name }}
                     </a>

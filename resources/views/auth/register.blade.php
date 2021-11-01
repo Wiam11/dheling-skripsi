@@ -161,8 +161,8 @@
         },
         data() {
            return {
-            name: "wiam hakam",
-            email: "wiamhakam@gmail.com",
+            name: "",
+            email: "",
             email_unavailable: false
         }
     },

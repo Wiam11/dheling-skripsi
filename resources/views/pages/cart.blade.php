@@ -278,19 +278,11 @@
             </div>
             <div class="row" data-aos="fade-up" data-aos-delay="200" >
               <div class="col-4 col-md-2">
-                <div class="product-title">$0</div>
-                <div class="product-subtitle">Country Tax</div>
-              </div>
-              <div class="col-4 col-md-3">
-                <div class="product-title">$0</div>
-                <div class="product-subtitle">Product Insurance</div>
-              </div>
-              <div class="col-4 col-md-2">
-                <div class="product-title" id="courier_cost">$0</div>
+                <div class="product-title" id="courier_cost">Rp.0</div>
                 <div class="product-subtitle">Ship to <p id="tujuan"></p></div>
               </div>
               <div class="col-4 col-md-2">
-                <div class="product-title text-success" id="totalPembayaran">${{$totalprice ?? 0}}</div>
+                <div class="product-title text-success" id="totalPembayaran">Rp.{{$totalprice ?? 0}}</div>
                 <div class="product-subtitle">Total</div>
               </div>
               <div class="col-8 col-md-3" v-if="checkout">

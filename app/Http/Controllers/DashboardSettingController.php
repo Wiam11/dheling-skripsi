@@ -43,7 +43,7 @@ class DashboardSettingController extends Controller
 
         $item->update($data);
         if($request->hasFile('avatar')){
-            $request->file('avatar')->move('images/',$request->file('avatar')->getClientOriginalName());
+            $request->file('avatar')->move('storage/assets/profil',$request->file('avatar')->getClientOriginalName());
             $item->avatar = $request->file('avatar')->getClientOriginalName();
             $item->save();
         }

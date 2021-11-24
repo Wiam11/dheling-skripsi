@@ -23,10 +23,10 @@ class User extends Authenticatable
     public function getAvatar()
     {
        if(!$this->avatar){
-            return asset('images/default.png');
+            return asset('storage/assets/profil/default.png');
        }
 
-       return asset('images/'.$this->avatar);
+       return asset('storage/assets/profil/'.$this->avatar);
     }
 
     /**
